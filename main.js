@@ -2,7 +2,7 @@
    הגדרות — הדביקו כאן את כתובת ה-Web App של Google Apps Script
    (הוראות בקובץ apps-script.gs)
    ============================================================ */
-const SHEET_URL = "PASTE_YOUR_APPS_SCRIPT_WEB_APP_URL_HERE";
+const SHEET_URL = "https://script.google.com/macros/s/AKfycbxC7kcZ6egnmqGhqtN9iFhT56UOfe4d1chEe5pQhhFAVF6XCzuSPa5fINyFrfpMKbGIvw/exec";
 
 /* ---------- countdown ---------- */
 (function () {
