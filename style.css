@@ -143,6 +143,14 @@ h3 + .timeline { margin-top: 0; }
 .timeline + h3 { margin-top: 44px; }
 
 /* ---------- timeline ---------- */
+.track {
+  display: flex; align-items: center; gap: 12px;
+  font-size: 16px; font-weight: 700; color: var(--green); letter-spacing: .04em;
+  margin: 26px 0 10px; text-align: right;
+}
+.track::after { content: ""; flex: 1; height: 1px; background: var(--sage); }
+h3 + .track { margin-top: 0; }
+.track + .timeline { border-top-color: rgba(31,31,27,.35); }
 .timeline { list-style: none; text-align: right; border-top: 1px solid var(--line); }
 .timeline li {
   display: grid;
