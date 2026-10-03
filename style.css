@@ -223,6 +223,7 @@ h3 + .track { margin-top: 0; }
 
 /* ---------- shuttle form ---------- */
 .shuttle p.intro { font-size: 18px; margin: -18px 0 28px; }
+.shuttle p.intro small { display: block; font-size: 14px; color: var(--muted); margin-top: 6px; }
 .choice { display: grid; grid-template-columns: 1fr 1fr; border: 1.5px solid var(--green); }
 .choice button {
   appearance: none; cursor: pointer; background: transparent; border: 0;
